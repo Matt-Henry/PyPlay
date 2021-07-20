@@ -15,6 +15,5 @@ while True:
     recvd = conn.recv(1024)
     print(recvd)
 
-
 sock_serv.close()
 
